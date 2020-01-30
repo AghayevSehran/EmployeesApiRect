@@ -40,7 +40,6 @@ export class AddEmployeeModal extends Component {
             }, (error) => {
                 this.setState({snackbaropen:true,sackbarmsg:'failed'});
             })
-
     }
     render(){
         return (
